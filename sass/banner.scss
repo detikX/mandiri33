@@ -3,10 +3,85 @@
     .title {
         position: absolute;
         left: 15%;
-        top: 15%;
+        z-index: 12;
+        top: 10%;
         h2 {
-            font-size: 3rem;
+            font-size: 3.3rem;
             line-height: 3rem;
+        }
+    }
+    .graph {
+        position: absolute;
+        inset: 0;
+        z-index: 1;
+        width: 100%;
+        height: 100vh;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    @keyframes MoveUpDown {
+        0% {
+          bottom: 5%;
+          left: 15%;
+          opacity: 0;
+        }
+        25% {
+            bottom: 5%;
+            left: 15%;
+            opacity: .5;
+        }
+        35% {
+            bottom: 5%;
+            left: 15%;
+            opacity: 1;
+        }
+        50% {
+          bottom: 10%;
+          left: 20%;
+          opacity: 1;
+        }
+
+        75% {
+            bottom: 30%;
+            left: 40%;
+            opacity: 1;
+        }
+
+        85% {
+            bottom: 30%;
+            left: 40%;
+            opacity: 1;
+        }
+
+        90% {
+            bottom: 30%;
+            left: 40%;
+            opacity: .5;
+        }
+        100% {
+            bottom: 30%;
+            left: 40%;
+            opacity: 0;
+        }
+        
+      }
+    .terbang {
+        width: 25%;
+        z-index: 2;
+        opacity: 0;
+        height: auto;
+        position: absolute;
+        left: 15%;
+        bottom: 5%;
+        animation: MoveUpDown 3.2s linear infinite;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
         }
     }
 }
