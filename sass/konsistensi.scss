@@ -1,5 +1,6 @@
 .konsistensi {
-    padding: 72px 0 32px;
+    // padding: 72px 0 32px;
+    // background: yellow;
     .kertas {
         position: absolute;
         top: -24px;
@@ -16,6 +17,12 @@
     .title {
         h3 {
             font-size: 3rem;
+            line-height: 2.6rem;
+            color: $biru-mandiri;
+            @media screen and (max-width:766px) {
+                font-size: 1.8rem;
+                line-height: 1.5rem;
+            }
         }
     }
 }
