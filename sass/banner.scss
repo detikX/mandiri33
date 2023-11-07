@@ -5,9 +5,16 @@
         left: 15%;
         z-index: 12;
         top: 10%;
+        @media screen and (max-width:766px) {
+            left: 8%;
+        }
         h2 {
             font-size: 3.3rem;
+            color: #3d5c7b;
             line-height: 3rem;
+            @media screen and (max-width:766px) {
+                font-size: 3rem;
+            }
         }
     }
     .graph {
@@ -69,6 +76,52 @@
         }
         
       }
+
+      @keyframes MoveUpDownMob {
+        0% {
+            bottom: 40%;
+            left: 15%;
+            opacity: 0;
+          }
+          25% {
+              bottom: 40%;
+              left: 15%;
+              opacity: .5;
+          }
+          35% {
+              bottom: 40%;
+              left: 15%;
+              opacity: 1;
+          }
+          50% {
+            bottom: 42%;
+            left: 20%;
+            opacity: 1;
+          }
+  
+          75% {
+              bottom: 47%;
+              left: 40%;
+              opacity: 1;
+          }
+  
+          85% {
+              bottom: 47%;
+              left: 40%;
+              opacity: 1;
+          }
+  
+          90% {
+              bottom: 47%;
+              left: 40%;
+              opacity: .5;
+          }
+          100% {
+              bottom: 47%;
+              left: 40%;
+              opacity: 0;
+          }
+      }
     .terbang {
         width: 25%;
         z-index: 2;
@@ -78,6 +131,11 @@
         left: 15%;
         bottom: 5%;
         animation: MoveUpDown 3.2s linear infinite;
+        @media screen and (max-width:766px) {
+            opacity: 1;
+            bottom: 40%;
+            animation: MoveUpDownMob 3.2s linear infinite;
+        }
         img {
             width: 100%;
             height: 100%;
