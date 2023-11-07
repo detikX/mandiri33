@@ -3,7 +3,10 @@
     .title {
         h3 {
             color: #133c6a;
-            font-size: 2.5rem;
+            font-size: 3rem;
+            @media screen and (max-width:766px) {
+                font-size: 2.5rem;
+            }
         }
     }
 

@@ -1,0 +1,42 @@
+.laba {
+    background: linear-gradient(to bottom, #cce5fd, #cce5fd);
+    .wrap-detikx {
+        margin-top: -35vh;
+    }
+    .gambar {
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        // width: 100%;
+        height: fit-content;
+        @media screen and (max-width:766px) {
+            top: 15vh;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    .title {
+        position: absolute;
+        z-index: 8;
+        left: 50%;
+        width: 80%;
+        top: 15%;
+        transform: translate(-50%,-50%);
+        @media screen and (max-width:766px) {
+            top: 17.3%;
+            
+        }
+        h3 {
+            font-size: 3rem;
+            // color: $biru-mandiri;
+            color: #06364d;
+            @media screen and (max-width:766px) {
+                // font-size: 2rem;
+            }
+        }
+    }
+}

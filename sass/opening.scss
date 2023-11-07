@@ -10,7 +10,11 @@
         width: 100%;
         /* inset: 0; */
         z-index: 2;
-        top: 5vh;
+        top: 10vh;
         height: 85vh;
+        @media screen and (max-width:766px) {
+            top: 5vh;
+            
+        }
     }
 }
