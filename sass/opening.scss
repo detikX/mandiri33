@@ -1,8 +1,16 @@
 .opening {
-    background: $kuning-opening;
+    background: #cce5fd;
     .wrap-detikx {
         position: relative;
         z-index: 20;
         top: -15vh;
+    }
+    .sticky {
+        position: sticky;
+        width: 100%;
+        /* inset: 0; */
+        z-index: 2;
+        top: 5vh;
+        height: 85vh;
     }
 }
