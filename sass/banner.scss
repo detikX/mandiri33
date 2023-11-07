@@ -1,24 +1,29 @@
 .banner {
     background: #feede4;
     &::before {
-        content: "";
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        right: 0;
-        height: 102px;
-        background: #cce5fd;
+        @media screen and (max-width:766px) {
+            content: "";
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            height: 102px;
+            background: #cce5fd;    
+        }
     }
     &::after {
-        content: "";
-        position: absolute;
-        left: 50%;
-        bottom: 72px;
-        width: 0;
-        height: 0;
-        border-left: 16px solid transparent;
-        border-right: 16px solid transparent;
-        border-top: 32px solid #feede4;
+        @media screen and (max-width:766px) {
+            content: "";
+            position: absolute;
+            left: 50%;
+            bottom: 72px;
+            width: 0;
+            height: 0;
+            border-left: 16px solid transparent;
+            border-right: 16px solid transparent;
+            border-top: 32px solid #feede4;
+            
+        }
 
     }
     .kertas {
