@@ -1,0 +1,105 @@
+.kredit {
+    background: #cce5fd;
+    .title {
+        h3 {
+            color: #133c6a;
+            font-size: 2.5rem;
+        }
+    }
+
+    .img {
+        width: 100%;
+        height: auto;
+        margin: 0 auto 32px;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
+    .segmen {
+        h4 {
+            text-align: center;
+            font-size: 1.8rem;
+            font-weight: bold;
+            color: #133c6a;
+            margin-bottom: 24px;
+        }
+
+        .wraps {
+            display: block;
+            /* margin-bottom: 16px; */
+            margin: 0 auto;
+            text-align: center;
+            &-data {     
+                display: inline-block;
+                filter: drop-shadow(2px 2px 4px black);
+                width: 42%;
+                vertical-align: top;
+                background: linear-gradient(-135deg, #133c6a, #317fb1);
+                border: 1px solid transparent;
+                padding: 4px;
+                color: white;
+                border-radius: 24px;
+                text-align: center;
+                /* margin: 0 auto; */
+                /* margin-bottom: 8px; */
+                margin: 0 8px 16px 0;
+                @media screen and (max-width:766px) {
+                    padding: 6px;
+                    width: 46%;
+                }
+                h5 {
+                    font-size: 1.3rem;
+                    &.uang {
+                        font-weight: bold;
+                        font-size: 1.8rem;
+                        color: #feb82c;
+                        text-align: center;
+                    }
+                }
+                .small-text {
+                    font-size: 1rem;
+                    @media screen and (max-width:766px) {
+                        font-size: .8rem;
+                        min-height: 57px;
+                    }
+                }
+            }
+        }
+
+        .koperasi {
+            border: 1px solid transparent;
+            padding: 16px;
+            text-align: center;
+            width: fit-content;
+            margin: 0 auto;
+            filter: drop-shadow(2px 2px 4px black);
+            border-radius: 24px;
+            // background: #feb82c;
+            background: linear-gradient(-135deg, #133c6a, #317fb1);
+            color: #cce5fd;
+            @media screen and (max-width:766px) {
+                padding: 8px;
+                width: 90%;
+            }
+            h5 {
+                font-size: 1.8rem;
+                @media screen and (max-width:766px) {
+                    font-size: 1.6rem;
+                }
+                &.uang {
+                    font-size: 2.3rem;
+                    color: #feb82c;
+                    // filter: drop-shadow(2px 2px 4px black);
+                    font-weight: bold;
+                }
+            }
+
+            .small-text {
+                font-size: 1rem;
+            }
+        }
+    }
+}
