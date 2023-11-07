@@ -1,3 +1,21 @@
 .konsistensi {
-    
+    padding: 72px 0 32px;
+    .kertas {
+        position: absolute;
+        top: -24px;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: auto;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+    }
+    .title {
+        h3 {
+            font-size: 3rem;
+        }
+    }
 }
