@@ -71,7 +71,7 @@
         z-index: 2;
         border-radius: 50%;
         filter: drop-shadow(2px 4px 6px black);
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             margin: 16px 8px;
         }
         img {
@@ -83,16 +83,65 @@
     }
     .img {
         width: 100%;
-        height: 420px;
-        margin: 0 auto 24px;
-        @media screen and (max-width:766px) {
-            height: auto;
+        height: 460px;
+        margin: 0 auto 16px;
+        position: relative;
+        @keyframes ataskanan {
+            0%,100% {
+                right: 35%;
+                top: 10%;
+            }
+            50% {
+                top: 12%;
+                right: 33%;
+            }
+           
             
+          }
+
+          @keyframes ataskananmob {
+            0%,100% {
+                right: 35%;
+                top: 10%;
+            }
+            50% {
+                top: 12%;
+                right: 33%;
+            }
+           
+            
+          }
+        .atas-kanan {
+            animation: ataskanan 3.2s linear infinite;
+            position: absolute;
+            right: 35%;
+            top: 10%;
+            width: 40px;
+            height: auto;
+            @media screen and (max-width:768px) {
+                // animation: initial;
+                // top: 10%;
+                width: 30px;
+                animation: ataskanan 2.2s linear infinite;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
         }
-        img {
+        .gede {
             width: 100%;
             height: 100%;
-            object-fit: contain;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        @media screen and (max-width:768px) {
+            height: auto;
+            
         }
     }
 
@@ -117,8 +166,8 @@
     .data {
         display: inline-block;
         width: 55%;
-        vertical-align: top;
-        @media screen and (max-width:766px) {
+        vertical-align: middle;
+        @media screen and (max-width:768px) {
             width: 100%;
 
         }
@@ -139,7 +188,7 @@
                     margin-right: .5rem;
                     font-size: 1.5rem;
                     margin-left: calc( var(--icon-space) * -1 );
-                    @media screen and (max-width:766px) {
+                    @media screen and (max-width:768px) {
                         margin-right: 0.2rem;
                     }
                 }
@@ -152,7 +201,7 @@
             font-size: 3rem;
             line-height: 2.6rem;
             color: $biru-mandiri;
-            @media screen and (max-width:766px) {
+            @media screen and (max-width:768px) {
                 font-size: 1.8rem;
                 line-height: 1.5rem;
             }

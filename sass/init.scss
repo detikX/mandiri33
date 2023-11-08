@@ -20,7 +20,7 @@ h2, h3 {
 }
 
 .foot {
-    @media screen and (max-width:766px) {
+    @media screen and (max-width:768px) {
         
         background: #ccc;
         height: 59px;
@@ -66,7 +66,7 @@ color: #222;
 // background-color: $kuning-opening;
     p {
         font-size: 1.1rem;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             font-size: 1rem;
         }
     }
@@ -121,7 +121,7 @@ section {
 .wrap-detikx {
     width: 700px;
     margin: 0 auto;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width:768px) {
         width: 90%;
         margin: 0 auto;
         display: block;
@@ -139,14 +139,14 @@ section {
     vertical-align: top;
     margin-right: 4px;
     background: #222;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width:768px) {
         width: 45px;
     }
     &-p {
         display: inline-block;
         width: 80%;
         margin-left: 8px;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             margin-left: 0;
         }
     }
@@ -207,7 +207,7 @@ section {
             &::after {
                 border-radius: 24px;
             }
-            @media screen and (max-width:766px) {
+            @media screen and (max-width:768px) {
                 width: 100% !important;
                 margin: 4px 0;
             }
@@ -243,7 +243,7 @@ section {
     text-align: center;
     margin-top: 32px;
     border-bottom: 1px dashed #111;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width:768px) {
         margin-top: 0;
     }
     .topik {
@@ -264,13 +264,13 @@ section {
         font-family: 'Hepta Slab' !important;
         font-size: 1.3rem !important;
         // line-height: 1.5rem !important;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             font-size: 1.2rem !important;
             line-height: 1.7rem !important;
         }
 
     }
-    @media screen and (max-width:766px) {
+    @media screen and (max-width:768px) {
         // width: 90%;
         text-align: center;
     }
@@ -284,7 +284,7 @@ section {
     padding-top: 16px;
     border-top: 1px dashed #4e4e4e;
     // margin: 0 auto;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width:768px) {
         width: 100%;
     }
 
@@ -308,7 +308,7 @@ section {
     // margin: 0 auto;
     margin-bottom: 16px;
     width: 100%;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width:768px) {
         height: 180px;
         margin-bottom: 24px;
     }
@@ -316,7 +316,7 @@ section {
         width: 100%;
         height: 100%;
         object-fit: cover;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             border-radius: 16px;
             object-fit: cover;
             
@@ -340,7 +340,7 @@ section {
     height: 2px;
     background: #4e4e4e;
     margin: 8px 0 16px;
-    @media screen and (max-width:766px) {
+    @media screen and (max-width:768px) {
         background: #4e4e4e;
         width: 120px;
     }

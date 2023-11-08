@@ -20,7 +20,7 @@
         bottom: 0;
         // height: 75vh;
         top: 15vh;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             top: 15vh;
             height: 50vh;
             width: 100%;
@@ -38,7 +38,7 @@
         width: 50%;
         top: 19%;
         transform: translate(-50%,-50%);
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             top: 12.8vh;
             width: 100%;
             // transform: initial;
@@ -49,7 +49,7 @@
             font-size: 3.3rem;
             // color: $biru-mandiri;
             color: #06364d;
-            @media screen and (max-width:766px) {
+            @media screen and (max-width:768px) {
                 // font-size: 2rem;
             }
         }
@@ -58,7 +58,7 @@
     blockquote {
         font-style: italic;
         font-size: 1rem;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             margin-bottom: 15vh;
             margin-top: 5vh;
             text-align: right;
@@ -70,7 +70,7 @@
         top: 1vh;
         width: 50px;
         height: auto;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             top: 2vh;
             left: 12vw;
         }
@@ -83,7 +83,7 @@
     }
     .hello {
         position: relative;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             overflow: hidden;
         }
     }
@@ -93,7 +93,7 @@
         bottom: 0;
         width: 230px;
         height: auto;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             width: 180px;
             left: -8vw;
         }
@@ -105,7 +105,7 @@
     }
     .bos {
         font-size: .8rem;
-        @media screen and (max-width:766px) {
+        @media screen and (max-width:768px) {
             text-align: right;
             font-size: .7rem;
         }
@@ -116,7 +116,7 @@
     // .big-one {
     //     font-size: 1.8rem;
     //     font-weight: 700;
-    //     @media screen and (max-width:766px) {
+    //     @media screen and (max-width:768px) {
     //         font-size: 1.5rem;
     //     }
     // }
