@@ -1,5 +1,17 @@
 .banner {
     background: #feede4;
+    .scroll {
+        display: none;
+        @media screen and (max-width:768px) {
+            position: absolute;
+            bottom: 105px;
+            z-index: 10;
+            color: $biru-mandiri;
+            left: 50%;
+            transform: translate(-50%);
+            display: block;
+        }
+    }
     &::before {
         @media screen and (max-width:768px) {
             content: "";
@@ -15,6 +27,7 @@
         @media screen and (max-width:768px) {
             content: "";
             position: absolute;
+            transform: translate(-50%,0);
             left: 50%;
             bottom: 72px;
             width: 0;
