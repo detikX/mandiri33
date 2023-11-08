@@ -162,6 +162,53 @@
                 object-fit: contain;
             }
         }
+
+        @keyframes ataskiri {
+            0%,100% {
+                left: 33%;
+                top: 7%;
+            }
+            50% {
+                top: 5%;
+                left: 31%;
+            }
+           
+            
+          }
+
+          @keyframes ataskirimob {
+            0%,100% {
+                left: 30%;
+                top: 6%;
+            }
+            50% {
+                top: 4%;
+                left: 28%;
+            }
+           
+            
+          }
+        .atas-kiri {
+            animation: ataskiri 2.2s linear infinite;
+            position: absolute;
+            left: 33%;
+            top: 7%;
+            width: 40px;
+            height: auto;
+            @media screen and (max-width:768px) {
+                // animation: initial;
+                // top: 10%;
+                width: 30px;
+                top: 6%;
+                left: 30%;
+                animation: ataskirimob 2.2s linear infinite;
+            }
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
         .gede {
             width: 100%;
             height: 100%;
