@@ -1,5 +1,37 @@
 .konsistensi {
     padding: 72px 0 32px;
+    .wrap-detikx {
+        z-index: 3;
+        position: relative;
+    }
+    .st {
+        position: absolute;
+        bottom: 2vh;
+        right: 5vw;
+        width: 100px;
+        z-index: 4;
+        height: auto;
+        @media screen and (max-width:768px) {
+            right: -2%;
+        }
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        z-index: 5;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        width: 100%;
+        height: 60px;
+        background: #69ccd7;
+        border-radius: 50% 50% 0 0;
+    }
     // background: yellow;
     .lipatan {
         position: absolute;
@@ -161,6 +193,8 @@
     .bg-abu {
         background: #d8d8d8;
         padding: 16px;
+        position: relative;
+        z-index: 2;
         border-radius: 24px;
     }
     .data {
