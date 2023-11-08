@@ -54,12 +54,13 @@
     }
     .qo {
         position: absolute;
-        left: 16vw;
+        left: 190px;
         top: 1vh;
         width: 50px;
         height: auto;
         @media screen and (max-width:766px) {
-            top: 3vh;
+            top: 2vh;
+            left: 12vw;
         }
         img {
             width: 100%;
