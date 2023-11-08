@@ -1,5 +1,14 @@
 .laba {
     background: linear-gradient(to bottom, #cce5fd, #cce5fd);
+    &::before {
+        content: "";
+        bottom: 0;
+        right: 0;
+        position: absolute;
+        height: 150px;
+        width: 150px;
+        background: linear-gradient(-45deg, #eee 35%, transparent 35%);
+    }
     .wrap-detikx {
         margin-top: -35vh;
     }
