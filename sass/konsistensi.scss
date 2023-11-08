@@ -80,6 +80,7 @@
     .imgs {
         width: 160px;
         height: 160px;
+        display: inline-block;
         border-radius: 16px;
         img {
             width: 100%;
@@ -87,6 +88,44 @@
             border-radius: 16px;
             object-fit: contain;
 
+        }
+    }
+    .bg-abu {
+        background: #d8d8d8;
+        padding: 16px;
+        border-radius: 24px;
+    }
+    .data {
+        display: inline-block;
+        width: 55%;
+        vertical-align: top;
+        @media screen and (max-width:766px) {
+            width: 100%;
+            
+        }
+        ul {
+            --icon-space: 1.5rem;
+            list-style: none;
+            padding: 0;
+            margin-left: 8px;
+            
+            li {
+                text-align: left;
+                padding-left: var(--icon-space);
+                &::before {
+                    content: "\f058";
+                    color: rgba($biru-mandiri,1);
+                    font-family: 'FontAwesome';
+                    display: inline-block;
+                    margin-right: .5rem;
+                    font-size: 1.5rem;
+                    margin-left: calc( var(--icon-space) * -1 );
+                    @media screen and (max-width:766px) {
+                        margin-right: 0.2rem;
+                    }
+                }
+                // "\f046"
+            }
         }
     }
     .title {
