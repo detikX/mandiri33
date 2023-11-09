@@ -4,16 +4,124 @@
         z-index: 3;
         position: relative;
     }
+    @keyframes roket {
+        0% {
+          bottom: 120px;
+         
+          opacity: 0;
+        }
+        25% {
+            bottom: 120px;
+            opacity: .5;
+        }
+        35% {
+            bottom: 120px;
+            opacity: 1;
+        }
+        50% {
+          bottom: 130px;
+          opacity: 1;
+        }
+
+        75% {
+            bottom: 190px;
+            opacity: 1;
+        }
+
+        85% {
+            bottom: 190px;
+            opacity: 1;
+        }
+
+        90% {
+            bottom: 190px;
+            opacity: .5;
+        }
+        100% {
+            bottom: 190px;
+            opacity: 0;
+        }
+        
+      }
+
+      @keyframes roketmob {
+        0% {
+          bottom: 80px;
+         
+          opacity: 0;
+        }
+        25% {
+            bottom: 80px;
+            opacity: .5;
+        }
+        35% {
+            bottom: 80px;
+            opacity: 1;
+        }
+        50% {
+          bottom: 130px;
+          opacity: 1;
+        }
+
+        75% {
+            bottom: 150px;
+            opacity: 1;
+        }
+
+        85% {
+            bottom: 150px;
+            opacity: 1;
+        }
+
+        90% {
+            bottom: 150px;
+            opacity: .5;
+        }
+        100% {
+            bottom: 150px;
+            opacity: 0;
+        }
+        
+      }
+    .roket {
+        animation: roket 2.2s linear infinite;
+        position: absolute;
+        bottom: 120px;
+        right: 7vw;
+        opacity: 0;
+        width: 45px;
+
+        height: auto;
+        // height: 40px;
+        z-index: 5;
+        @media screen and (max-width:768px) {
+            width: 35px;
+            height: 100px;
+            bottom: 80px;
+            right: 10vw;
+            animation: roketmob 2.2s linear infinite;
+        
+        }
+        // background-color: #69ccd7;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        
+    }
     .st {
         position: absolute;
         bottom: 2vh;
+
         right: 5vw;
         width: 100px;
         z-index: 4;
         height: auto;
         @media screen and (max-width:768px) {
             right: 5%;
-            width: 60px;
+            width: 70px;
+            bottom: 0;
         }
         img {
             width: 100%;

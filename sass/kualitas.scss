@@ -1,0 +1,65 @@
+.kualitas {
+    padding: 102px 0 32px;
+    background: #cce5fd;
+    @media screen and (max-width:768px) {
+        padding: 52px 0 32px;
+    }
+    .img {
+        width: 100%;
+        position: relative;
+        height: 450px;
+        @media screen and (max-width:768px) {
+            height: auto;
+        }
+        
+        .imgh {
+            width: 100%;
+            height: auto;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;    
+            }
+
+        }
+        .orangs {
+            position: absolute;
+            right: 0;
+            width: 100px;
+            height: auto;
+            bottom: 0;
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+    }
+    &::before {
+        content: "";
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: -1;
+        right: 0;
+        height: 80px;
+        width: 100%;
+        border-radius: 0 0 50% 50%;
+        background-color: #27718e;
+        @media screen and (max-width:768px) {
+            height: 32px;
+        }
+    }
+    .title {
+        width: fit-content;
+        margin: 0 auto 8px;
+
+        h3 {
+            font-size: 3rem;
+            color: $biru-mandiri;
+            @media screen and (max-width:768px) {
+                font-size: 2.2rem;
+            }
+        }
+    }
+}
