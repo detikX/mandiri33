@@ -4,6 +4,24 @@
     @media screen and (max-width:768px) {
         padding: 52px 0 32px;
     }
+
+    .awanx {
+        position: absolute;
+        bottom: -5%;
+        @media screen and (max-width:768px) {
+            bottom: -5%;
+        }
+        // left: 0;
+        right: 0;
+        width: 240px;
+        height: 80px;
+        img {
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+
+    }
     .img {
         width: 100%;
         position: relative;
