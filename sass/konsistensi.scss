@@ -1,5 +1,8 @@
 .konsistensi {
     padding: 72px 0 32px;
+    @media screen and (max-width:768px) {
+        padding: 72px 0 52px;
+    }
     .wrap-detikx {
         z-index: 3;
         position: relative;
@@ -347,7 +350,7 @@
         }
     }
     .bg-abu {
-        background: #d8d8d8;
+        background: linear-gradient(45deg, #d8d8d8, #fafafa);
         padding: 16px;
         position: relative;
         z-index: 2;

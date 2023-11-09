@@ -5,11 +5,22 @@
         padding: 52px 0 32px;
     }
 
+    .gambars {
+        width: 100%;
+        height: 320px;
+        margin: 0 auto ;
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: contain;
+        }
+    }
+
     .awanx {
         position: absolute;
         bottom: -5%;
         @media screen and (max-width:768px) {
-            bottom: -5%;
+            bottom: -3%;
         }
         // left: 0;
         right: 0;
