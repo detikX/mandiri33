@@ -18,9 +18,9 @@
         // height: fit-content;
         height: 420px;
         // border: 1px solid;
-        top: 15vh;
+        top:15%;
         @media screen and (max-width:766px) {
-            top: 20vh;
+            top: 15%;
             height: fit-content;
         }
         img {
@@ -46,7 +46,7 @@
     }
 
     .helping-margin {
-        margin-top: -40vh;
+        margin-top: -20vh;
         @media screen and (max-width:768px) {
             margin-top: -50vh;
             
@@ -79,7 +79,7 @@
     }
 
     .hijaux {
-        background: linear-gradient(45deg, rgba(white,.6), rgba(#88f4c9,.98));
+        background: linear-gradient(45deg, rgba(white,.8), rgba(#88f4c9,1));
     }
     .birux {
         background: linear-gradient(45deg, rgba(white,.6), rgba(#88ccf4,.98));
