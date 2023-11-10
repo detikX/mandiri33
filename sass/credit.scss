@@ -1,11 +1,14 @@
 .credit {
     min-height: auto;
-    background: #8ec4bf;
-    color: white;
+    background: linear-gradient(to left, #9cddc6, #a6dfc5);
+    color: #222;
     .title {
-        color: #eee;
+        color: #444;
     }
     .nama {
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+        @media screen and (max-width:768px) {
+            font-size: 1rem;
+        }
     }
 }
