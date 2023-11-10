@@ -1,8 +1,8 @@
 .peran-bank {
     background: linear-gradient(to bottom, #ebf8e5,#ade9e4);
-    padding: 32px 0 150px;
+    padding: 32px 0 200px;
     @media screen and (max-width:768px) {
-        padding: 32px 0 100px;
+        padding: 32px 0 80px;
     }
     .title {
         h3 {
@@ -17,16 +17,16 @@
     }
     @keyframes esg {
         0%,100% {
-          top: 15%;
+          left: 0%;
         }
         50% {
-           top: 16%;
+           left: 2%;
         }
         
         
       }
     .esg {
-        position: absolute;
+        position: relative;
         width: 100%;
         // animation: esg 2s linear infinite;
 
@@ -35,6 +35,7 @@
         height: 420px;
         // border: 1px solid;
         top:15%;
+        left: 0;
         @media screen and (max-width:766px) {
             top: 15%;
             height: fit-content;
@@ -62,9 +63,10 @@
     }
 
     .helping-margin {
-        margin-top: -20vh;
+        // margin-top: -20vh;
+        margin-top: 32px;
         @media screen and (max-width:768px) {
-            margin-top: -70vh;
+            // margin-top: -70vh;
             
         }
     }
@@ -114,6 +116,53 @@
             width: 100%;
             height: auto;
             object-fit: contain;
+        }
+    }
+
+    .alls {
+        position: relative;
+        z-index: 7;
+
+        margin-bottom: 15vh;
+
+        .img {
+            width: 100%;
+            height: 180px;
+            z-index: 8;
+            position: absolute;
+            top: -100px;
+            // border-radius: 50%;
+            // background: white;
+            // filter: drop-shadow(2px 2px 4px #111);
+            // left: -24px;
+            &::after {
+                // content: "";
+                // position: absolute;
+                // width: 80px;
+                // height: 80px;
+                // left: 50px;
+                // top: 30px;
+                // z-index: -1;
+                // background: white;
+                // border-radius: 50%;
+            }
+            img {
+                // border-radius: 50%;
+                width: 100%;
+                height: 100%;
+                object-fit: contain;
+            }
+        }
+        
+        .dataz {
+            padding: 100px 16px 16px;
+            border-radius: 24px;
+            position: relative;
+            box-shadow: 2px 3px 5px #898989;
+            // z-index: 8;
+            // border: 1px solid green;
+            // background: linear-gradient(to bottom, white, rgba(white,.8));
+            background: linear-gradient(45deg, rgba(white,.8), rgba(#88f4c9,1));
         }
     }
    

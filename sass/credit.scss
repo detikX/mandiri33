@@ -1,7 +1,8 @@
 .credit {
     min-height: auto;
     // background: linear-gradient(to left, #9cddc6, #a6dfc5);
-    background: #a6dfc5;
+    // background: #a6dfc5;
+    background: #5bdeaa;
     color: #222;
     .title {
         color: #444;
@@ -23,7 +24,7 @@
         height: auto;
         top: -60%;
         @media screen and (max-width:768px) {
-            bottom: 100%;
+            bottom: 60%;
             
         }
         // &::before {

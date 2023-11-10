@@ -5,7 +5,9 @@ $(document).ready(function () {
 
 $(".konsistensi .imgs, .kualitas .gambars, .dpk .data-dpk").attr({ "data-aos": "zoom-in", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
-$(".dpk .img, .kredit .img").attr({ "data-aos": "fade-up", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
+$(".dpk .img, .kredit .img, .alls .img").attr({ "data-aos": "fade-up", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
+
+$(".alls .dataz p").attr({ "data-aos": "fade-in", "data-aos-delay": "300", "data-aos-duration": "700", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
 $(".kualitas .orangs").attr({ "data-aos": "fade-left", "data-aos-delay": "300", "data-aos-duration": "300", "data-aos-offset": "10", "data-aos-easing": "linear" })
 
